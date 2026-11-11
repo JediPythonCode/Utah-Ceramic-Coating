@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Utah Ceramic Coating">
+  <!-- Full-square mark: Google crops this to a circle on a white SERP.
+       The water bead stays inside a padded safe circle so it is not clipped. -->
+  <rect width="512" height="512" fill="#121212"/>
+  <!-- Bold hydrophobic water bead in brand Utah blue. Tip and bulb sit
+       inside the central ~66% so the circular crop keeps a dark ring of padding. -->
+  <path fill="#37b7f2" d="M256 108
+    C256 168 140 252 140 328
+    A116 116 0 1 0 372 328
+    C372 252 256 168 256 108Z"/>
+  <!-- Gloss highlight so the bead still reads as a wet drop at small sizes. -->
+  <ellipse cx="214" cy="300" rx="34" ry="54" fill="#ffffff" fill-opacity="0.95" transform="rotate(-28 214 300)"/>
+</svg>
